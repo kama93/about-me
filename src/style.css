@@ -321,7 +321,7 @@ section#skills a{
 }
 
 section#projects {
-  height: 250vh;
+  height: 270vh;
   background-color: var(--navColor2);
   color: var(--navColor1);
   display: flex;
@@ -385,7 +385,9 @@ img{
 /* For overlay effect */
 
 .image {
-  height: 300px;
+  height: 280px;
+  width: 80%;
+  padding: 20px;
   opacity: 1;
   display: block;
   transition: .5s ease;
@@ -405,6 +407,9 @@ img{
 
 .container {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container:hover .image {
@@ -420,7 +425,7 @@ img{
 /* container for image + footer */
 .fit{
   width:100%;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
 }
 
@@ -525,6 +530,15 @@ a, a:visited, a:hover, a:focus {
     top: 1rem;
     left: 1rem;
   }
+  .projects-my{
+    display: flex;
+    flex-direction: column;
+  }
+  .image {
+    height: 180px;
+    width: 80%;
+    padding: 5px;
+  }
   .menu-bars { 
     top: 0.5rem;
     right: 1rem;
@@ -538,11 +552,6 @@ a, a:visited, a:hover, a:focus {
     font-size: 12px
   }
 
-  .projects-my{
-    display: flex;
-    flex-direction: row;
-  }
-
    .zero-mastery-projects-container{
     display: flex;
     flex-direction: column;
@@ -550,12 +559,10 @@ a, a:visited, a:hover, a:focus {
     align-items: center;
     margin: 5px, 5px
   }
-  .fit{
-    padding:3px
-  }
+
   .zero-image{
     height: auto;
-    width: 100%;
+    width: 80%;
     border-radius: 20px
   }
   
@@ -574,9 +581,6 @@ a, a:visited, a:hover, a:focus {
   .description{
     font-size: 15px;
     margin:5px
-  }
-  .my-description, .fit{
-    margin: 10px
   }
   .button{
     height:150px;
