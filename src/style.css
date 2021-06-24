@@ -246,7 +246,7 @@ section#skills {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 180vh;
+  height: 200vh;
 }
 
 .text-shadow-drop-tr {
@@ -313,7 +313,7 @@ section#skills a{
 }
 
 section#projects {
-  height: 290vh;
+  height: 390vh;
   background-color: var(--navColor2);
   color: var(--navColor1);
   display: flex;
@@ -355,12 +355,14 @@ section#projects a{
 /* container for images */
 .projects-my{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 40% 40%;
   grid-template-rows: 1fr 1fr;
   gap: 40px 40px;
   grid-template-areas:
     ". ."
     ". .";
+    justify-content: center;
+    align-items: center;
 }
 
 img{
@@ -376,8 +378,8 @@ img{
 /* For overlay effect */
 
 .image {
-  height: 280px;
-  width: 80%;
+  height: 100%;
+  width: 100%;
   padding: 20px;
   opacity: 1;
   display: block;
